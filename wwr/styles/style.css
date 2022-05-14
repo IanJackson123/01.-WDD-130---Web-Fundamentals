@@ -79,11 +79,13 @@ h4{
 }
 
 .book, .join{
-    color: #3f3e44;
+    color: white;
+    background-color: #959499;
 }
 
 .book:hover, .join:hover{
-    color: #3f3e44;
+    color: white;
+    background-color: #d8513b;
 }
 
 .msg h2{
@@ -103,7 +105,7 @@ footer a{
 }
 
 footer a:hover{
-    color: #d8513b;
+    color: #3f3e44;
     text-decoration: underline;
 }
 
