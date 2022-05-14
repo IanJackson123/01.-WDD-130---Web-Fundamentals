@@ -6,6 +6,12 @@
 nav {
     text-align: center;
     line-height: 3em;
+    color: white;
+}
+
+nav a:hover{
+    background-color: #d8513b;
+    color: white;
 }
 
 #hero_message h1{
@@ -33,12 +39,7 @@ body{
 }
 
 header{
-    background-color: #959499;
-}
-
-nav a:hover{
-    background-color: #d8513b;
-    color: blue;
+    background-color: #3f3e44;
 }
 
 .book, .join{
@@ -63,8 +64,10 @@ footer{
 }
 
 nav a{
-    color: #3f3e44;
+    color: white;
     text-decoration: none;
+    font-size: 1.2em;
+    padding: 30px;
 }
 
 .home-title{
@@ -92,15 +95,15 @@ h4{
 }
 
 footer h3{
-    color: #d8513b;
+    color: #3f3e44;
 }
 footer a{
-    color: #d8513b;
+    color: #3f3e44;
     text-decoration: none;
 }
 
 footer a:hover{
-    color: #3f3e44;
+    color: #d8513b;
     text-decoration: underline;
 }
 
