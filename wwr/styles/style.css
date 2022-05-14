@@ -56,11 +56,11 @@ header{
 }
 
 .msg{
-    background-color: #dcdcde;
+    background-color: #959499;
 }
 
 footer{
-    background-color: #dcdcde;
+    background-color: #959499;
 }
 
 nav a{
@@ -87,18 +87,18 @@ h4{
 }
 
 .msg h2{
-    color: #3f3e44;
+    color: white;
 }
 
 .msg p{
-    color: #3f3e44;
+    color: white;
 }
 
 footer h3{
-    color: #3f3e44;
+    color: white;
 }
 footer a{
-    color: #3f3e44;
+    color: white;
     text-decoration: none;
 }
 
