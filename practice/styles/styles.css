@@ -11,6 +11,7 @@ a {
 }
 
 h1 {
+  margin: 50px 0, auto;
   color: steelblue;
   text-align: center;
 }
