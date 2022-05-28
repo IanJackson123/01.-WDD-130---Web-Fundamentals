@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Rock+Salt&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -16,10 +18,12 @@ nav a:hover{
 
 #hero_message h1{
     text-align: center;
+    color:#959499;
 }
 
 #hero_message h4{
     text-align: center;
+
 }
 
 .button-box{
@@ -30,12 +34,15 @@ main section{
     text-align: center;
 }
 
-#background{
-    height: 725px;
+main section img{
+    box-sizing: border-box;
 }
 
 body{
     background-color: white	;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
 }
 
 header{
@@ -44,7 +51,13 @@ header{
 
 .book, .join{
     background-color: #dcdcde;
+    color: white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+
 }
 
 .book:hover, .join:hover{
@@ -52,26 +65,36 @@ header{
 }
 
 #background{
+    height: 725px;
     background-color:#dcdcde;
+    border-top: 200px solid white;
 }
 
 .msg{
     background-color: #959499;
+    padding: 35px;
+    line-height:15px;
 }
 
 footer{
     background-color: #959499;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 nav a{
     color: white;
     text-decoration: none;
     font-size: 1.2em;
-    padding: 30px;
+    padding: 35px;
+
 }
 
 .home-title{
     color: #3f3e44;
+    font-family: "Rock Salt", 'Bradley Hand', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4{
@@ -81,6 +104,10 @@ h4{
 .book, .join{
     color: white;
     background-color: #959499;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
 }
 
 .book:hover, .join:hover{
@@ -90,10 +117,14 @@ h4{
 
 .msg h2{
     color: white;
+    font-family:"Rock Salt", 'Bradley Hand', sans-serif;
+    margin: 0;
 }
 
 .msg p{
     color: white;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer h3{
@@ -117,10 +148,35 @@ footer h3 a:hover{
     width: 80px;
 }
 
+#logo_link{
+    padding-top: 5px;
+}
+
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img{
     width: 100%;
+}
+
+footer .social img{
+    padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+
+.mountains{
+    padding-bottom: 200px;
+}
+
+.rivers-card img, .camping-card img, .rapids-card img{
+    border: 15px solid #959499;
+}
+
+h2{
+    margin: 0;
 }
